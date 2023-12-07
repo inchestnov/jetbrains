@@ -1,0 +1,25 @@
+<keymap version="1" name="inchestnov-macos" parent="Mac OS X 10.5+">
+
+  <!-- Terminal - Command + 2-->
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+
+  <!-- Open Terminal In File's directory - Command + 3-->
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+
+  <!-- Git Blame - Command + G -->
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+
+  <!-- Override (disable) default -->
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateFindToolWindow" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
+  <action id="FindNext" />
+</keymap>
