@@ -12,3 +12,12 @@ To use the provided keymap, navigate to this directory and run the following com
 curl https://raw.githubusercontent.com/inchestnov/jetbrains/master/keymaps/inchestnov-macos.xml > inchestnov-macos.xml
 ```
 
+### Templates
+
+Personal templates, like `fixme` or `todo`, are located at [personal.xml](./templates/personal.xml).
+
+To use it, navigate to `~/Library/Application Support/JetBrains/ProductName/templates/` and do:
+
+```bash
+curl https://raw.githubusercontent.com/inchestnov/jetbrains/master/templates/personal.xml > personal.xml
+```
