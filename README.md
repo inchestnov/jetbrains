@@ -14,10 +14,11 @@ curl https://raw.githubusercontent.com/inchestnov/jetbrains/master/keymaps/inche
 
 ### Templates
 
-Personal templates, like `fixme` or `todo`, are located at [personal.xml](./templates/personal.xml).
+Personal templates, like `fixme` or `todo`, are located at [templates](./templates/).
 
 To use it, navigate to `~/Library/Application Support/JetBrains/ProductName/templates/` and do:
 
 ```bash
-curl https://raw.githubusercontent.com/inchestnov/jetbrains/master/templates/personal.xml > personal.xml
+curl https://raw.githubusercontent.com/inchestnov/jetbrains/master/templates/personal.xml > personal.xml && \\
+curl https://raw.githubusercontent.com/inchestnov/jetbrains/master/templates/personal-go.xml > personal-go.xml
 ```
