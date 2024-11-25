@@ -1,0 +1,9 @@
+<templateSet group="Personal (Go)">
+  <template name="wrap" value="if $ERR$ != nil {&#10;  return errors.Wrap($ERR$, &quot;$RETURN$&quot;)&#10;}$END$" description="Return wrapped error if not nill" toReformat="false" toShortenFQNames="true">
+    <variable name="ERR" expression="errorVariable()" defaultValue="err" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>
