@@ -1,53 +1,19 @@
 <keymap version="1" name="inchestnov-macos" parent="Mac OS X 10.5+">
-
-  <!--  Open Terminal -->
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
-  <!-- Open Terminal In File's directory -->
-  <action id="Terminal.OpenInTerminal">
-    <keyboard-shortcut first-keystroke="meta 3" />
-  </action>
-
-
-  <!-- Git Branches Popup -->
-  <action id="Git.Branches">
-    <keyboard-shortcut first-keystroke="ctrl #10000a7" />
-  </action>
-  <!-- Git Blame -->
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="meta g" />
-  </action>
-
-  <!-- Go to Next\Previous Project Window-->
-  <action id="NextProjectWindow">
-    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
-  </action>
-  <action id="PreviousProjectWindow">
-    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
-  </action>
-  <!-- Close Current Project Window -->
-  <action id="CloseProject">
-    <keyboard-shortcut first-keystroke="meta alt back_space" />
-  </action>
-
-  <!-- Go to Next\Previous Cursor Position-->
-  <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
-  
-  <!-- Insert New Line Before Cursor-->
-  <action id="EditorStartNewLineBefore">
-    <keyboard-shortcut first-keystroke="shift meta enter" />
-  </action>
-  
-
-  <!-- Overrides defaults (for disable)-->
-  <action id="ActivateBookmarksToolWindow" />
   <action id="BraceOrQuoteOut" />
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="meta alt back_space" />
+  </action>
   <action id="CodeFloatingToolbar.GotoNextMenu" />
   <action id="CodeFloatingToolbar.GotoPrevMenu" />
   <action id="Console.TableResult.ShowRecordView" />
@@ -57,13 +23,29 @@
   <action id="EditorCodeBlockStart" />
   <action id="EditorCompleteStatement" />
   <action id="EditorIndentSelection" />
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="ExpandLiveTemplateByTab" />
+  <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="FindNext" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl #10000a7" />
+  </action>
   <action id="JumpToLastChange" />
   <action id="NextParameter" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+  </action>
   <action id="NextWindow" />
   <action id="PrevParameter" />
+  <action id="PreviousProjectWindow">
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
+  </action>
   <action id="PreviousTemplateVariable" />
   <action id="PreviousWindow" />
   <action id="SearchEverywhere.CompleteCommand" />
@@ -72,5 +54,8 @@
   <action id="SplitChooser.NextWindow" />
   <action id="SplitChooser.PreviousWindow" />
   <action id="Terminal.CommandCompletion" />
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="Terminal.SmartCommandExecution.Debug" />
 </keymap>
