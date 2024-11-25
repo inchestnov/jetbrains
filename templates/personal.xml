@@ -1,0 +1,25 @@
+<templateSet group="personal">
+  <template name="todo" value="$COMMENT_START$ TODO $DATE$: $END$ $COMMENT_END$ " description="Create a TODO with current date" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="COMMENT_START" expression="commentStart()" defaultValue="//" alwaysStopAt="false" />
+    <variable name="COMMENT_END" expression="commentEnd()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fixme" value="$COMMENT_START$ FIXME $DATE$: $END$ $COMMENT_END$ " description="Create a FIXME with current date" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENT_START" expression="commentStart()" defaultValue="//" alwaysStopAt="false" />
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="COMMENT_END" expression="commentEnd()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="note" value="$COMMENT_START$ NOTE: $END$ $COMMENT_END$ " description="Create a TODO with current date" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENT_START" expression="commentStart()" defaultValue="//" alwaysStopAt="false" />
+    <variable name="COMMENT_END" expression="commentEnd()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
