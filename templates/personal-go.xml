@@ -6,4 +6,10 @@
       <option name="GO" value="true" />
     </context>
   </template>
+  <template name="newstruct" value="// $STRUCT$ ...&#10;type $STRUCT$ struct {}&#10;&#10;// New$STRUCT$ constructor&#10;func New$STRUCT$ () *$STRUCT$ {&#10;    return &amp;$STRUCT${}&#10;}&#10;&#10;$END$" description="Template for new structure" toReformat="false" toShortenFQNames="true">
+    <variable name="STRUCT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO_FILE" value="true" />
+    </context>
+  </template>
 </templateSet>
